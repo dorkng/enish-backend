@@ -24,6 +24,9 @@
     "url": "https://github.com/dorkng/enish-backend/issues"
   },
   "homepage": "https://github.com/dorkng/enish-backend#readme",
+  "engines": {
+    "yarn": "1.22.17"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "compression": "^1.7.4",
