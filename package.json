@@ -1,0 +1,64 @@
+{
+  "name": "enish-backend-api",
+  "version": "1.0.0",
+  "description": "Enish Resturant Backend API",
+  "private": true,
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "cross-env DEBUG=dev tsnd --respawn --files src/app.ts",
+    "lint": "eslint . --ext .ts --fix",
+    "start": "node dist/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorkng/enish-backend.git"
+  },
+  "keywords": [
+    "Enish",
+    "Resturant"
+  ],
+  "author": "tito-k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dorkng/enish-backend/issues"
+  },
+  "homepage": "https://github.com/dorkng/enish-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.8",
+    "helmet": "^7.0.0",
+    "joi": "^17.10.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "mongoose-paginate-v2": "^1.7.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/compression": "^1.7.3",
+    "@types/cors": "^2.8.14",
+    "@types/debug": "^4.1.8",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/morgan": "^1.9.5",
+    "@types/node": "^20.6.3",
+    "@types/nodemailer": "^6.4.10",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
